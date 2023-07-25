@@ -1,0 +1,84 @@
+
+/* Photo Section Styles */
+.photo-section {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.photo {
+  width: 2in;
+  height: 3in;
+  object-fit: cover; /* Preserve aspect ratio and cover the container */
+}
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+.container {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #f9f9f9;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+}
+
+.section {
+  margin-bottom: 20px;
+}
+
+.section-title {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+ul {
+  list-style: disc;
+  margin-left: 20px;
+}
+
+.toggle-button {
+  cursor: pointer;
+  color: #007BFF;
+  font-weight: bold;
+}
+
+.hidden {
+  display: none;
+}
+
+/* Social Media Icons */
+.social-icons {
+  display: flex;
+  justify-content: center;
+  position: fixed;
+  bottom: 20px;
+  left: 90%;
+  transform: translateX(-50%);
+  background-color: #f2f2f2;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.social-icons .icon {
+  margin: 5px;
+}
+
+/* Set the size for the icon images inside the .icon class */
+.social-icons .icon img {
+  width: 30px;
+  height: 30px;
+}
+
